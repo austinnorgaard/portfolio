@@ -21,9 +21,11 @@ function Project1() {
       <Box as="main">
         <Box as="section" id="project">
           <Box as="h1">Project 1</Box>
-          <Box as="p">This is my first project (of my showcase). No literally, this entire website was built by me! 
-           <br/><br/>I have experience in Angular and React, and I figured even if I don't necessarily want to work with it
-          all the time, why not showcase it anyways :)</Box>
+            <Box as="p" id="project1">This is my first project (of my showcase). No literally, this entire website was built by me! 
+              <br/><br/>I have experience in Angular and React, and I figured even if I don't necessarily want to work with it
+              all the time, why not showcase it anyways :)
+            </Box>
+            <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/portfolio.git">Link to Github Repo</Link></Box>
         </Box>
       </Box>
     </Box>
