@@ -1,0 +1,62 @@
+/* p1style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  #project* {
+    display: flex;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin: 50px 0;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin-bottom: 10px;
+    }
+  }
+  
