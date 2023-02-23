@@ -210,6 +210,8 @@ img {
   text-align: center;
 }
 
-#idLink {
-  color: red;
+#gitLink {
+  padding-top: 2rem;
+  font-size: x-large;
+  font-weight: bolder;
 }
