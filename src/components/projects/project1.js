@@ -21,7 +21,7 @@ function Project1() {
       <Box as="main">
         <Box as="section" id="project">
           <Box>
-            <Box as="h1">Project 1</Box>
+            <Box as="h1">Project 1 - Portfolio Website</Box>
             <Box as="p" id="project1">This is my first project (of my showcase). No literally, this entire website was built by me! 
               <br/><br/>I have experience in Angular and React, and I figured even if I don't necessarily want to work with it
               all the time, why not showcase it anyways :)
