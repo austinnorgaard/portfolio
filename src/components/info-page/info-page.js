@@ -31,7 +31,7 @@ function Info() {
                     <Box>
                     <Link id="link" to="https://github.com/austinnorgaard" target="_blank"><Box as="img" src={github} alt="github" /></Link>
                     <Link id="link" to="https://linkedin.com/in/austinnorgaard" target="_blank"><Box as="img" src={linkedin} alt="linkedin" /></Link>
-                    <Link id="link" to="https://instagram.com/austin_norgaard" target="_blank"><Box as="img" src={instagram} alt="instagram" /></Link>
+                    <Link id="link" to="https://instagram.com/norgaustin" target="_blank"><Box as="img" src={instagram} alt="instagram" /></Link>
                     </Box>
                 </Box>
             </Box>
