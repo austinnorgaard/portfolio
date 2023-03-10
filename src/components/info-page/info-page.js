@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import github from '../../github.png';
 import linkedin from '../../linkedin.png';
 import instagram from '../../instagram.png';
+import Sidebar from '../sidebar/sidebar';
 
 const email = "me@austinnorgaard.com";
 
@@ -11,10 +12,11 @@ function Info() {
         <Box className="Info">
             <Box as="header">
                 <Box as="nav">
+                    <Sidebar />
                     <ul id="nametag">
                         <li><Link to="/">Austin Norgaard</Link></li>
                     </ul>
-                    <ul>
+                    <ul className="desktop">
                         <li><Link to="/">Home</Link></li>
                         <li id="projectsLink"><Link to="/projects">Projects</Link></li>
                         <li><Link to="/info">Contact Info/Links</Link></li>

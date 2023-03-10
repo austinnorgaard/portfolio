@@ -2,20 +2,22 @@
 import '../../style.css';
 import Box from '@mui/material/Box';
 import {Link} from 'react-router-dom';
+import Sidebar from '../sidebar/sidebar';
 
 function Project3() {
   return (
     <Box className="Project1">
       <Box as="header">
         <Box as="nav">
-          <ul id="nametag">
-              <li><Link to="/">Austin Norgaard</Link></li>
-          </ul>
-          <ul>
-              <li><Link to="/">Home</Link></li>
-              <li id="projectsLink"><Link to="/projects">Projects</Link></li>
-              <li><Link to="/info">Contact Info/Links</Link></li>
-          </ul>
+          <Sidebar />
+            <ul id="nametag">
+                <li><Link to="/">Austin Norgaard</Link></li>
+            </ul>
+            <ul className="desktop">
+                <li><Link to="/">Home</Link></li>
+                <li id="projectsLink"><Link to="/projects">Projects</Link></li>
+                <li><Link to="/info">Contact Info/Links</Link></li>
+            </ul>
         </Box>
       </Box>
       <Box as="main">

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+#menu {
+    margin-left: 2rem;
+    width: 100%;
+}
+
+.opened {
+    position: inherit;
+    z-index: 1100;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #333;
+    opacity: none;
+}
+
+.closed {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-left: -2rem;
+}
+
+#menu img {
+    z-index: 15;
+    width: 2.2rem;
+    height: 2rem;
+    filter: invert(100%) sepia(4%) saturate(313%) hue-rotate(43deg) brightness(116%) contrast(100%);
+}
+
+#menu ul > li {
+    padding-top: 2rem;
+}
+
+#menu ul {
+    margin-bottom: 4rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}

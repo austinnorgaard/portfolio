@@ -1,16 +1,18 @@
 // Home.js
 import Box from '@mui/material/Box';
 import { Link } from 'react-router-dom';
+import Sidebar from '../sidebar/sidebar';
 
 function Home() {
     return (
         <Box className="Home">
             <Box as="header">
                 <Box as="nav">
+                    <Sidebar />
                     <ul id="nametag">
                         <li><Link to="/">Austin Norgaard</Link></li>
                     </ul>
-                    <ul>
+                    <ul className="desktop">
                         <li><Link to="/">Home</Link></li>
                         <li id="projectsLink"><Link to="/projects">Projects</Link></li>
                         <li><Link to="/info">Contact Info/Links</Link></li>
@@ -25,12 +27,11 @@ function Home() {
                     I truly make an impact. Something interesting about me is that I am a musician,
                     so I can be creative and think outside the box in a lot of situations.</Box>
                 </Box>
-                <Box as="section" id="about">About Me
-                    <Box as="h2">
-                        <Box as="p">I am currently studying at Corban University for a degree in Computer Science.
+                <Box as="section" id="about">
+                <Box as="h1">About Me</Box>
+                <Box as="p">I am currently studying at Corban University for a degree in Computer Science.
                             I've worked on several projects and have experience in C++, Java, Python, HTML, CSS, JavaScript, and React.
-                        </Box>
-                    </Box>
+                </Box>
                 </Box>
                 <Box as="section" id="projects">
                     <Box as="h2"><Link to="/projects">My Projects</Link></Box>
