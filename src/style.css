@@ -116,6 +116,10 @@ header nav ul > li {
   font-weight: normal;
 }
 
+.Info main {
+  flex-direction: row;
+}
+
 #projects {
   text-align: center;
   margin-top: 0;
