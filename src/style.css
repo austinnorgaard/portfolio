@@ -64,21 +64,18 @@ header nav ul > li {
   padding-left: 2rem;
 }
 
-#main* {
-  display: flex;
-}
-
 .Info main {
-  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   gap: 25%;
   height: 100%;
+  display: flex;
 }
 
 .Info main #content p {
   justify-content: flex-start;
   text-align: left;
+  padding-top: 1rem;
 }
 
 .Info main #content {
@@ -114,10 +111,6 @@ header nav ul > li {
   text-decoration: none;
   font-style: normal;
   font-weight: normal;
-}
-
-.Info main {
-  flex-direction: row;
 }
 
 #projects {
@@ -208,6 +201,10 @@ i a {
   header nav ul > li {
     padding-left: 0;
     margin-bottom: 10px;
+  }
+
+  .Info main {
+    display: flex;
   }
 }
 
