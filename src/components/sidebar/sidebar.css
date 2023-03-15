@@ -3,11 +3,6 @@
     box-sizing: 0;
 }
 
-#menu {
-    margin-left: 2rem;
-    width: 100%;
-}
-
 .opened {
     position: inherit;
     z-index: 1100;
@@ -15,19 +10,21 @@
     top: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #333;
-    opacity: none;
+}
+
+.clicked#menu {
+    padding-bottom: 1rem;
+    margin-left: 4.1rem;
 }
 
 .closed {
     display: none;
 }
 
-.mobile {
+.menuClicked, .menuUnclicked {
     display: flex;
     flex-direction: column;
     margin-left: 0;
-    margin-left: -2rem;
 }
 
 #menu img {
@@ -39,10 +36,17 @@
 
 #menu ul > li {
     padding-top: 2rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    border-top: white;
+    border-bottom: transparent;
+    border-style: outset;
+    border-width: 2px;
 }
 
 #menu ul {
     margin-bottom: 4rem;
+    margin-left: 2rem;
     list-style: none;
     display: flex;
     flex-direction: column;

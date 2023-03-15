@@ -3,6 +3,7 @@ import '../../style.css';
 import Box from '@mui/material/Box';
 import {Link} from 'react-router-dom';
 import Sidebar from '../sidebar/sidebar';
+import ProjectGallery1 from '../gallery/project1Gallery';
 
 function Project1() {
   return (
@@ -11,7 +12,7 @@ function Project1() {
         <Box as="nav">
           <Sidebar />
             <ul id="nametag">
-                <li><Link to="/">Austin Norgaard</Link></li>
+                <li><Link to="/" id="name">Austin Norgaard</Link></li>
             </ul>
             <ul className="desktop">
                 <li><Link to="/">Home</Link></li>
@@ -30,6 +31,9 @@ function Project1() {
             </Box>
             <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/portfolio.git" target="_blank">Link to Github Repo</Link></Box>
           </Box>
+        </Box>
+        <Box as="section" className="image-gallery-wrapper">
+          <ProjectGallery1 className="image-gallery"/>
         </Box>
       </Box>
      </Box>

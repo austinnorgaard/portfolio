@@ -4,6 +4,7 @@ import github from '../../github.png';
 import linkedin from '../../linkedin.png';
 import instagram from '../../instagram.png';
 import Sidebar from '../sidebar/sidebar';
+import ResumeGallery from '../gallery/resumeGallery';
 
 const email = "me@austinnorgaard.com";
 
@@ -35,6 +36,11 @@ function Info() {
                     <Link id="link" to="https://linkedin.com/in/austinnorgaard" target="_blank"><Box as="img" src={linkedin} alt="linkedin" /></Link>
                     <Link id="link" to="https://instagram.com/norgaustin" target="_blank"><Box as="img" src={instagram} alt="instagram" /></Link>
                     </Box>
+                </Box>
+            </Box>
+            <Box as="h1" id="resumeHeader">Resume:
+                <Box as="section" className="image-gallery-wrapper" id="resume">
+                    <ResumeGallery className="image-gallery"/>
                 </Box>
             </Box>
         </Box>

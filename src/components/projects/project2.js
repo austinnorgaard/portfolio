@@ -3,6 +3,8 @@ import '../../style.css';
 import Box from '@mui/material/Box';
 import {Link} from 'react-router-dom';
 import Sidebar from '../sidebar/sidebar';
+import ProjectGallery2 from '../gallery/project2Gallery';
+
 
 function Project2() {
   return (
@@ -26,6 +28,9 @@ function Project2() {
           <Box as="p" id="project2"> A 3D Engine using matrices and data points to render objects in a 3D space on a 2D screen.
           </Box>
           <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/Engine3D.git" target="_blank">Link to Github Repo</Link></Box>
+        </Box>
+        <Box as="section" className="image-gallery-wrapper">
+          <ProjectGallery2 className="image-gallery"/>
         </Box>
       </Box>
     </Box>

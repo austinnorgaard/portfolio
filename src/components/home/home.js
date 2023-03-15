@@ -1,7 +1,38 @@
 // Home.js
 import Box from '@mui/material/Box';
+import '../../index';
 import { Link } from 'react-router-dom';
 import Sidebar from '../sidebar/sidebar';
+import log1 from '../../logdemo.png';
+import log2 from '../../logdemo2.png';
+import log3 from '../../logdemo3.png';
+import loggif2 from '../../logdemo2.gif';
+import loggif3 from '../../logdemo3.gif';
+import { lazy } from 'react';
+import ProjectsGallery from '../gallery/projectsGallery';
+
+const images = [
+    {
+      original: log1,
+      loading: lazy,
+    },
+    {
+      original: log2,
+      loading: lazy,
+    },
+    {
+      original: log3,
+      loading: lazy,
+    },
+    {
+      original: loggif2,
+      loading: lazy,
+    },
+    {
+      original: loggif3,
+      loading: lazy,
+    },
+  ];
 
 function Home() {
     return (
@@ -35,6 +66,9 @@ function Home() {
                 </Box>
                 <Box as="section" id="projects">
                     <Box as="h2"><Link to="/projects">My Projects</Link></Box>
+                </Box>
+                <Box as="section" className="image-gallery-wrapper">
+                    <ProjectsGallery className="image-gallery" render={images}/>
                 </Box>
             </Box>
         </Box>

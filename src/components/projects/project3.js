@@ -3,6 +3,7 @@ import '../../style.css';
 import Box from '@mui/material/Box';
 import {Link} from 'react-router-dom';
 import Sidebar from '../sidebar/sidebar';
+import ProjectGallery3 from '../gallery/project3Gallery';
 
 function Project3() {
   return (
@@ -24,6 +25,9 @@ function Project3() {
         <Box as="section" id="home">
           <Box as="h1">Project 3</Box>
           <Box as="p">This is my third project.</Box>
+        </Box>
+        <Box as="section" className="image-gallery-wrapper">
+          <ProjectGallery3 className="image-gallery"/>
         </Box>
       </Box>
     </Box>
