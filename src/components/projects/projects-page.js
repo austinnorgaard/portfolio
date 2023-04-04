@@ -29,18 +29,24 @@ function Projects() {
                     <Box as="h2" id="projectHeader">My Projects</Box>
                     <br />
                     <Box as="section" id="projectPacks">
-                        <Box as="section" id="projectNames">
+                        <Box id="projectPack">
                             <Link to="/projects/project1">Portfolio Website</Link>
-                            <Link to="/projects/project2">3D Engine/Renderer</Link>
-                            <Link to="/projects/project3" id="fuel">Fuel Gauge</Link>
-                            <Link to="/projects/project4">Temperature Unit Converter</Link>
-                            <Link to="/projects/project5">Rest API</Link>
-                        </Box>
-                        <Box as="section" id="projectImages">
                             <Link to='/projects/project1'><img src={p1img} alt="Project 1 img"/></Link>
+                        </Box>
+                        <Box id="projectPack">
+                            <Link to="/projects/project2">3D Engine/Renderer</Link>
                             <Link to='/projects/project2'><img src={p2img} alt="Project 2 img"/></Link>
+                        </Box>
+                        <Box id="projectPack" className="fuel">
+                            <Link to="/projects/project3" id="fuel">Fuel Gauge</Link>
                             <Link to='/projects/project3'><img src={p3img} alt="Project 3 img"/></Link>
+                        </Box>
+                        <Box id="projectPack">
+                            <Link to="/projects/project4">Temperature Unit Converter</Link>
                             <Link to='/projects/project4'><img src={p4img} alt="Project 4 img"/></Link>
+                        </Box>
+                        <Box id="projectPack">
+                            <Link to="/projects/project5">Rest API</Link>
                             <Link to='/projects/project5'><img src={p5img} alt="Project 5 img"/></Link>
                         </Box>
                     </Box>

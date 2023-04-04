@@ -24,7 +24,7 @@ function Project3() {
       <Box as="main">
         <Box as="section" id="home">
           <Box>
-            <Box as="h1">Project 3</Box>
+            <Box as="h1">Project 3 - Fuel Gauge</Box>
             <Box as="p" id="project3">A simple C++ project to simulate the odometer and fuel gauge of a vehicle.</Box>
             </Box>
             <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/Car.git" target="_blank">Link to Github Repo</Link></Box>

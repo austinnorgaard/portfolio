@@ -88,11 +88,6 @@ header nav ul > li {
   text-align: left;
 }
 
-#projectPack {
-  min-height: 100%;
-  padding-right: 2rem;
-}
-
 .Info main #links {
   display: flex;
   text-align: left;
@@ -133,40 +128,30 @@ header nav ul > li {
 
 #projectPacks {
   display: flex;
-  flex-direction: column;
-  max-width: 100vw;
-}
-
-#projectImages {
-  display: flex;
   flex-direction: row;
-  max-width: 100vw;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  min-height: 8rem;
-  max-height: 8rem;
+  align-items: center;
+  justify-content: center;
+  padding-right: 2rem;
 }
 
-#fuel {
+.fuel {
   padding-left: 1rem;
 }
 
-#projectImages img {
-  max-width: 15rem;
-  min-width: 15rem;
-  padding-right: 2.5rem;
+#projectPack {
+  align-items: center;
+  justify-content: center;
 }
 
-#projectNames {
-  margin-top: -1rem;
-  margin-right: 4.5rem;
-  margin-left: 3.5rem;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: x-large;
-  font-weight: bold;
+#projectPack a {
+  font-size: larger;
+}
+
+#projectPack a img {
+  padding-top: 1rem;
+  max-width: 15rem;
+  min-height: 12rem;
+  max-height: 12rem;
 }
 
 ul {
@@ -305,6 +290,15 @@ i a {
 
   #resumeHeader {
     margin-top: 15rem;
+  }
+  #projectPacks {
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: -1rem;
+  }
+
+  #projectPack a img, #projectPack {
+    padding-top: 1rem;
   }
 }
 
