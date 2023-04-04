@@ -4,6 +4,8 @@ import Home from './components/home/home.js';
 import Project1 from './components/projects/project1';
 import Project2 from './components/projects/project2';
 import Project3 from './components/projects/project3';
+import Project4 from './components/projects/project4';
+import Project5 from './components/projects/project5';
 import Projects from './components/projects/projects-page.js';
 import ErrorPage from './components/error-page/error-page';
 import Info from './components/info-page/info-page';
@@ -37,6 +39,16 @@ const router = createBrowserRouter([
   {
     path: "/projects/project3",
     element: <Project3 />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/projects/project4",
+    element: <Project4 />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/projects/project5",
+    element: <Project5 />,
     errorElement: <ErrorPage />,
   },
   {

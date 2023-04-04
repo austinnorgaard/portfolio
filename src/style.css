@@ -88,6 +88,11 @@ header nav ul > li {
   text-align: left;
 }
 
+#projectPack {
+  min-height: 100%;
+  padding-right: 2rem;
+}
+
 .Info main #links {
   display: flex;
   text-align: left;
@@ -123,6 +128,45 @@ header nav ul > li {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  max-width: 100vw;
+}
+
+#projectPacks {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+}
+
+#projectImages {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  min-height: 8rem;
+  max-height: 8rem;
+}
+
+#fuel {
+  padding-left: 1rem;
+}
+
+#projectImages img {
+  max-width: 15rem;
+  min-width: 15rem;
+  padding-right: 2.5rem;
+}
+
+#projectNames {
+  margin-top: -1rem;
+  margin-right: 4.5rem;
+  margin-left: 3.5rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 ul {

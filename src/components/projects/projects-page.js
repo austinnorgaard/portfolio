@@ -2,6 +2,11 @@ import Box from '@mui/material/Box';
 import '../../style.css';
 import { Link } from 'react-router-dom';
 import Sidebar from '../sidebar/sidebar';
+import p1img from '../../websitedemo.jpg'
+import p2img from '../../logdemo2.gif'
+import p3img from '../../FG1.png';
+import p4img from '../../TC1.gif';
+import p5img from '../../Api2.png';
 
 function Projects() {
     return (
@@ -23,11 +28,22 @@ function Projects() {
                 <Box as="section" id="projects">
                     <Box as="h2" id="projectHeader">My Projects</Box>
                     <br />
-                    <ul>
-                        <i><Link to="/projects/project1">Project 1</Link></i>
-                        <i><Link to="/projects/project2">Project 2</Link></i>
-                        <i><Link to="/projects/project3">Project 3</Link></i>
-                    </ul>
+                    <Box as="section" id="projectPacks">
+                        <Box as="section" id="projectNames">
+                            <Link to="/projects/project1">Portfolio Website</Link>
+                            <Link to="/projects/project2">3D Engine/Renderer</Link>
+                            <Link to="/projects/project3" id="fuel">Fuel Gauge</Link>
+                            <Link to="/projects/project4">Temperature Unit Converter</Link>
+                            <Link to="/projects/project5">Rest API</Link>
+                        </Box>
+                        <Box as="section" id="projectImages">
+                            <Link to='/projects/project1'><img src={p1img} alt="Project 1 img"/></Link>
+                            <Link to='/projects/project2'><img src={p2img} alt="Project 2 img"/></Link>
+                            <Link to='/projects/project3'><img src={p3img} alt="Project 3 img"/></Link>
+                            <Link to='/projects/project4'><img src={p4img} alt="Project 4 img"/></Link>
+                            <Link to='/projects/project5'><img src={p5img} alt="Project 5 img"/></Link>
+                        </Box>
+                    </Box>
                 </Box>
             </Box>
         </Box>

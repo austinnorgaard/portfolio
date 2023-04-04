@@ -2,7 +2,9 @@ import React, {lazy} from "react";
 import ImageGallery from 'react-image-gallery';
 import web from '../../websitedemo.jpg';
 import lamp from '../../lampdemo.png';
-import wip from '../../workinprogress.jpeg';
+import Api from '../../Api2.png';
+import fg from '../../FG1.png'
+import TC from '../../TC1.gif';
 
 const images = [
   {
@@ -14,7 +16,15 @@ const images = [
     loading: lazy,
   },
   {
-    original: wip,
+    original: fg,
+    loading: lazy,
+  },
+  {
+    original: Api,
+    loading: lazy,
+  },
+  {
+    original: TC,
     loading: lazy,
   },
 ];

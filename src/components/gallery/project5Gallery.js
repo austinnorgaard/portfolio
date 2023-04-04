@@ -1,28 +1,23 @@
 import React, {lazy} from "react";
 import ImageGallery from 'react-image-gallery';
-import FG1 from '../../FG1.png';
-import FG2 from '../../FG2.png';
-import FG3 from '../../FG3.png';
+import Api1 from '../../Api1.png';
+import Api2 from '../../Api2.png';
 
 const images = [
   {
-    original: FG1,
+    original: Api1,
     loading: lazy,
   },
   {
-    original: FG2,
-    loading: lazy,
-  },
-  {
-    original: FG3,
+    original: Api2,
     loading: lazy,
   },
 ];
 
-class ProjectGallery3 extends React.Component {
+class ProjectGallery5 extends React.Component {
   render() {
     return <ImageGallery items={images} onSlide={0} showFullscreenButton={false} showPlayButton={false} defaultWait={0}/>;
   }
   }
 
-  export default ProjectGallery3 ;
+  export default ProjectGallery5 ;
