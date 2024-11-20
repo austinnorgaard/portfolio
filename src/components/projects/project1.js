@@ -24,10 +24,10 @@ function Project1() {
       <Box as="main">
         <Box as="section" id="project">
           <Box>
-            <Box as="h1">Project 1 - Portfolio Website</Box>
-            <Box as="p" id="project1">This is my first project (of my showcase). No literally, this entire website was built by me! 
-              <br/><br/>I have experience in Angular and React, and I figured even if I don't necessarily want to work with it
-              all the time, why not showcase it anyways :)
+            <Box as="h1">Portfolio Website</Box>
+            <Box as="p" className="ProjectInfoBox" id="project1">I have frontend and backend experience in Angular, React.JS, MySQL, PostgreSQL, and some others. I enjoy working with these types of applications
+              because I am often a creative person, and this is a great way to showcase that! Although this website is not very complex, most of the work I do with
+              other sites is! Perhaps by the time you're reading this, I'll have greatly refreshed/updated this site, but for now please enjoy the simplicity :).
             </Box>
             <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/portfolio.git" target="_blank">Link to Github Repo</Link></Box>
           </Box>

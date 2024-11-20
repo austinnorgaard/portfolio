@@ -24,8 +24,8 @@ function Project5() {
       <Box as="main">
         <Box as="section" id="project">
           <Box>
-            <Box as="h1">Project 5 - Rest API</Box>
-            <Box as="p" id="project5"> A JavaScript project for a backend Rest API. Handles the actions for the database in <br/> the FieldTrainer WebApp.
+            <Box as="h1">Rest API</Box>
+            <Box as="p" className="ProjectInfoBox" id="project5"> A backend Rest API written with ExpressJS on JavaScript. Handles the actions for the database in the FieldTrainer WebApp.
             </Box>
             <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/FTAPI.git" target="_blank">Link to Github Repo</Link></Box>
           </Box>

@@ -1,6 +1,6 @@
 import React, {lazy} from "react";
 import ImageGallery from 'react-image-gallery';
-import web from '../../websitedemo.jpg';
+import web from '../../websitedemo.png';
 
 const images = [
   {

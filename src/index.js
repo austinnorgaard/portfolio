@@ -14,6 +14,9 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import './style.css';
+import Project6 from './components/projects/project6.js';
+import Project7 from './components/projects/project7.js';
+import Project8 from './components/projects/project8.js';
 
 const router = createBrowserRouter([
   {
@@ -49,6 +52,21 @@ const router = createBrowserRouter([
   {
     path: "/projects/project5",
     element: <Project5 />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/projects/project6",
+    element: <Project6 />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/projects/project7",
+    element: <Project7 />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/projects/project8",
+    element: <Project8 />,
     errorElement: <ErrorPage />,
   },
   {

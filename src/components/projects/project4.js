@@ -24,8 +24,8 @@ function Project4() {
       <Box as="main">
         <Box as="section" id="project">
           <Box>
-            <Box as="h1">Project 4 - Temperature Unit Converter</Box>
-            <Box as="p" id="project4"> A simple project that handles the conversion of degrees celsius to fahrenheit and vice-versa.
+            <Box as="h1">Temperature Unit Converter</Box>
+            <Box as="p" className="ProjectInfoBox" id="project4"> An application that handles the conversion of degrees celsius to fahrenheit and vice-versa. Based in C++.
             </Box>
             <Box as="p" id="gitLink"><Link to="https://github.com/austinnorgaard/CelsiusToFahrenheit.git" target="_blank">Link to Github Repo</Link></Box>
           </Box>
